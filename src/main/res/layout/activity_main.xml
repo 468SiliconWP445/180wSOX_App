@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f4f4f4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_2899"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/profile_image_description"
+            android:background="@drawable/circle_background"/>
+
+        <!-- Profile Name -->
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="180WSOX"
+            android:textSize="32sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Links -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/youtube_channel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My YouTube Channel"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:onClick="openYouTubeChannel1" />
+
+            <Button
+                android:id="@+id/minecraft_channel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Minecraft Channel"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:onClick="openYouTubeChannel2" />
+
+            <Button
+                android:id="@+id/instagram_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Instagram"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:onClick="openInstagram" />
+
+            <Button
+                android:id="@+id/x_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My X Account"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:onClick="openX" />
+
+            <Button
+                android:id="@+id/sutton_lighting_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Sutton Lighting Page"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:onClick="openSuttonLighting" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
