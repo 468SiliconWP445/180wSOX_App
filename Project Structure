@@ -1,0 +1,21 @@
+MyProfileApp/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── myprofileapp/
+│   │   │   │               └── MainActivity.java
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   └── activity_main.xml
+│   │   │   │   ├── drawable/
+│   │   │   │   │   └── img_2899.jpg
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── themes.xml
+│   │   │   ├── AndroidManifest.xml
+│   └── build.gradle
+├── gradle/
+└── settings.gradle
